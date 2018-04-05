@@ -9,7 +9,7 @@
     "postinstall": "curl -s https://raw.githubusercontent.com/codestates/pomander/master/bin/install?token=AEzaQ9YtT8Ra9PxsezjqCRzttiBCkeudks5ZOSsTwA%3D%3D | bash"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.2",
+    "bootstrap": "4.0.0-alpha.2",
     "jquery": "^2.2.1",
     "lodash": "^4.6.1",
     "react": "^0.14.7",
