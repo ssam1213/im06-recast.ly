@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "live-server --open=./SpecRunner.html --port=8081",
-    "postinstall": "curl -s https://raw.githubusercontent.com/codestates/pomander/master/bin/install?token=AEzaQ9YtT8Ra9PxsezjqCRzttiBCkeudks5ZOSsTwA%3D%3D | bash"
+    "postinstall": "curl -s https://raw.githubusercontent.com/codestates/pomander/master/bin/install?token=AEzaQ9YtT8Ra9PxsezjqCRzttiBCkeudks5ZOSsTwA%3D%3D | bash",
+    "build": "babel ./src -d compiled/src -w"
   },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.2",
